@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Medical Image Analysis",
+    "description": "Advanced algorithms for analyzing medical images including X-rays, MRIs, and CT scans",
+    "icon": "Eye",
+    "tags": ["Deep Learning", "Segmentation", "Detection"]
+  },
+  {
+    "title": "Diagnostic AI",
+    "description": "AI-powered diagnostic tools for early disease detection and treatment planning",
+    "icon": "Heart",
+    "tags": ["Classification", "Prediction", "Clinical AI"]
+  },
+  {
+    "title": "Surgical Navigation",
+    "description": "Computer vision systems for real-time surgical guidance and augmented reality",
+    "icon": "Brain",
+    "tags": ["AR/VR", "Real-time", "3D Vision"]
+  }
+] 

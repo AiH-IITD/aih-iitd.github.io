@@ -1,0 +1,51 @@
+[
+  {
+    "title": "RadFormer: Transformers with global–local attention for interpretable and accurate Gallbladder Cancer detection",
+    "authors": "Soumen Basu, Mayank Gupta, Pratyaksha Rana, Pankaj Gupta, Chetan Arora",
+    "venue": "Medical Image Analysis, 2023",
+    "tags": ["Gall Bladder Cancer"],
+    "link": "https://arxiv.org/pdf/2211.04793"
+  },
+  {
+    "title": "From Forks to Forceps: A New Framework for Instance Segmentation of Surgical Instruments",
+    "authors": "Britty Baby, Daksh Thapar, Mustafa Chasmai, Tamajit Banerjee, Kunal Dargan, Ashish Suri, Subhashis Banerjee, Chetan Arora",
+    "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023",
+    "tags": ["Surgical Instrument Segmentation"],
+    "link": "https://openaccess.thecvf.com/content/WACV2023/papers/Baby_From_Forks_to_Forceps_A_New_Framework_for_Instance_Segmentation_WACV_2023_paper.pdf"
+},
+  {
+    "title": "Ultra-high resolution, multi-scale, context-aware approach for detection of small cancers on mammography",
+    "authors": "Krithika Rangarajan, Aman Gupta, Saptarshi Dasgupta, Uday Marri, Arun Kumar Gupta, Smriti Hari, Subhashis Banerjee, and Chetan Arora",
+    "venue": "Nature Scientific Reports, 2022",
+    "tags": ["Mammography", "Breast Cancer"],
+    "link": "httpshttps://www.nature.com/articles/s41598-022-15259-7.pdf"
+  },
+  {
+    "title": "Representation Learning using Rank Loss for Robust Neurosurgical Skills Evaluation",
+    "authors": "Britty Baby, Mustafa Chasmai, Tamajit Banerjee, Ashish Suri, Subhashis Banerjee, and Chetan Arora",
+    "venue": "International Conference on Image Processing (ICIP), 2022",
+    "tags": ["Neurosurgery"],
+    "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9897932&casa_token=BiWruDUd1SkAAAAA:_nNxN44ksnx5H56ff1OjI6RinKmKyc3E4OAMFE2_DeMqyEPdgb0p0z9ouY4Fd0jwWDQilKOlvwk&tag=1"
+  },
+  {
+    "title": "Unsupervised Contrastive Learning of Image Representations from Ultrasound Videos with Hard Negative Mining",
+    "authors": "Soumen Basu, Somanshu Singla, Mayank Gupta, Pratyaksha Rana, Pankaj Gupta, and Chetan Arora",
+    "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022.",
+    "tags": ["Ultrasound"],
+    "link": "https://arxiv.org/pdf/2207.13148"
+  },
+  {
+    "title": "Surpassing the Human Accuracy: Detecting Gallbladder Cancer from USG Images with Curriculum Learning",
+    "authors": "Soumen Basu, Mayank Gupta, Pratyaksha Rana, Pankaj Gupta, and Chetan Arora",
+    "venue": "IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2022.",
+    "tags": ["Gall Bladder Cancer"],
+    "link": "https://openaccess.thecvf.com/content/CVPR2022/papers/Basu_Surpassing_the_Human_Accuracy_Detecting_Gallbladder_Cancer_From_USG_Images_CVPR_2022_paper.pdf"
+  },
+  {
+    "title": "Artificial Intelligence–assisted chest X-ray assessment scheme for COVID-19",
+    "authors": "Krithika Rangarajan, Sumanyu Muku, ..., and Chetan Arora",
+    "venue": "European Radiology, 2021",
+    "tags": ["Radiography"],
+    "link": "https://link.springer.com/content/pdf/10.1007/s00330-020-07628-5.pdf"
+  }
+] 

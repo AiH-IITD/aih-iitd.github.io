@@ -1,0 +1,118 @@
+{
+  "principal_investigator": [
+    {
+      "name": "Dr. Chetan Arora",
+      "title": "Professor, IIT Delhi",
+      "interests": "Computer Vision, Machine learning"
+    }
+  ],
+  "external_faculty_collaborators": [
+    {"name": "Aditya Nigam", "title": "Assistant Professor, IIT Mandi"},
+    {"name": "Saket Anand", "title": "Associate Professor, IIIT Delhi"},
+    {"name": "Vikram Goyal", "title": "Professor, IIIT Delhi"},
+    {"name": "C.V. Jawahar", "title": "Professor, IIIT Hyderabad"},
+    {"name": "Vineeth N. Balasubramanian", "title": "Associate Professor, IIT Hyderabad"},
+    {"name": "Anbumani Subramanian", "title": "Intel"},
+    {"name": "Vinay P. Namboodiri", "title": "Faculty member, University of Bath, UK"},
+    {"name": "Shmuel Peleg", "title": "Professor, Hebrew University of Jerusalem, Israel"}
+  ],
+  "phd_students": [
+    {"name": "Ankita Raj", "interests": "Trustworthy ML, Privacy and Security in Computer Vision", "start": "2019"},
+    {"name": "Soumen Basu", "interests": "Deep Learning, Medical Image Analysis", "start": "2019", "note": "Thesis Submitted, Feb 2024"},
+    {"name": "Dr. Krithika Rangarajan", "title": "Associate Professor, AIIMS, New Delhi", "interests": "Medical Image Analysis", "start": "2019"},
+    {"name": "Rohan Dhanakshirur", "interests": "Computer Vision, Machine learning", "start": "2019"},
+    {"name": "Ramya Hebbalgappe", "title": "Senior Scientist, TCS Research", "interests": "Trustworthy ML, Computer Vision, Computational Photography", "start": "2020"},
+    {"name": "Nikhil Reddy", "title": "Joint PhD Univ. of Queensland and IIT Delhi", "interests": "Domain Generalization, Semantic Segmentation", "start": "2020"},
+    {"name": "Dr. Pankaj Gupta", "title": "Associate Professor, PGIMER, Chandigarh", "interests": "Radiodiagnosis, Medical Image Analysis", "start": "2021"},
+    {"name": "Prafful Kumar Khoba", "interests": "Revisiting assumptions and evaluation metrics in domain generalization", "start": "2022"},
+    {"name": "Kaustubh R Borgavi", "interests": "MAVI: Mobility Assistant for the Visually impaired", "start": "2024"}
+  ],
+  "masters_students": [
+    {"name": "Kunal Dargan", "interests": "Video Object Segmentation and Tracking, Medical Imaging"},
+    {"name": "Suraj Patni", "interests": "Visual SLAM, Monocular Depth Estimation"},
+    {"name": "K.N. Ajay Shastry", "interests": "Pedestrian Detection"},
+    {"name": "Kshitiz Jain", "interests": "Computer Vision, Machine Learning"},
+    {"name": "Tajamul Ashraf", "interests": "Computer Vision, Machine Learning"},
+    {"name": "Shashank K. Vempati", "interests": "Optical Character Recognition"}
+  ],
+  "btech_students": [
+    {"name": "Aradhye Agarwal", "interests": "Depth Estimation"}
+  ],
+  "research_assistants": [
+    {"name": "Mrinal Tyagi", "interests": "Medical Imaging, Computer Vision"},
+    {"name": "Kartik Anand", "interests": "Uncertainty estimation and calibration in computer vision"},
+    {"name": "Abhilaksh Singh Reen", "interests": "OCR in Indian Languages, Interactive Machine Learning on Medical images"},
+    {"name": "Chetan Madan", "interests": "Medical Imaging, Cancer Detection"}
+  ],
+  "interns": [
+    {"name": "Anureet Chhabra", "interests": "SLAM for Visual Navigation"},
+    {"name": "Hardik Soni", "interests": "Optical Character Recognition, Text Detection"}
+  ],
+  "external_student_collaborators": [
+    {"name": "Sharat Agarwal", "title": "PhD Student, IIIT Delhi (Co-advisor: Chetan Arora)"},
+    {"name": "Daksh Thapar", "title": "PhD Student, IIT Mandi (Co-advisor: Chetan Arora)"}
+  ],
+  "staff": [
+    {"name": "Manish Kumar", "title": "Senior Lab Assistant"},
+    {"name": "Deepa Tiwari", "title": "Admin Staff, SIT-009, Phone: 011-26596080"}
+  ],
+  "alumni": {
+    "postdocs": [
+      {"name": "Dr. Arpan Garai", "first_employment": "Assistant Professor, Vellore Institute of Technology, Vellore, India"}
+    ],
+    "phd": [
+      {"name": "Pravin Nagar", "first_employment": "Postdoc, University of Maryland, CP", "year": "2022"},
+      {"name": "Britty Baby", "first_employment": "Scientist B, AIIMS New Delhi", "year": "2022"},
+      {"name": "Anupam Sobti", "first_employment": "Postdoc, Microsoft Research, India", "year": "2022"},
+      {"name": "Dinesh Khandelwal", "first_employment": "Research Scientist, IBM Research, India", "year": "2020"},
+      {"name": "Ishant Shanu", "first_employment": "Postdoc, NUS Singapore", "year": "2020"},
+      {"name": "Suvam Patra", "first_employment": "Applied Research Scientist, Facebook Reality Labs, London", "year": "2019"}
+    ],
+    "masters": [
+      {"name": "Mayank Gupta", "interests": "Medical Imaging, Cancer Detection"},
+      {"name": "Devesh Pant", "interests": "Document/ Scene text OCR"},
+      {"name": "Ashutosh Agarwal", "interests": "Mobility, Fairness, Few-shot learning"}
+    ],
+    "research_assistants": [
+      {"name": "Aatif Nisar Dar", "interests": "Assessing the Feasibility and Ethics of Household Economic Status Prediction using Deep Learning on Images"},
+      {"name": "Mayuna Gupta", "interests": "Medical Imaging, Cancer Detection"},
+      {"name": "Jayesh Chaudhari", "interests": "Object Detection, Gait Recognition"},
+      {"name": "Nishit Anand", "interests": "Document & Scene-Text OCR, Active Learning"}
+    ],
+    "btech": [
+      {"name": "Abdur Rahman", "interests": "Computer Vision, Deep Learning"},
+      {"name": "Anirudha Kulkarni", "interests": "Computer Vision, Deep Learning"},
+      {"name": "Kuriseti Ravi Sri Teja"},
+      {"name": "Chinmay Mittal", "interests": "Scene Text Recognition"},
+      {"name": "Somanshu Singla"},
+      {"name": "Jatin Prakash"},
+      {"name": "Neelabh Madan"},
+      {"name": "Simarpreet Singh Saluja"},
+      {"name": "Shreyans Nagori"},
+      {"name": "Mukku Vishnumanogna"},
+      {"name": "Surya C. Kalia"},
+      {"name": "Arpan Mangal"},
+      {"name": "Tamajit Banerjee", "interests": "Computer Vision, Formal Languages and Automata Theory, Reinforcement Learning"},
+      {"name": "Mustafa Chasmai", "interests": "Computer Vision, Machine Learning"},
+      {"name": "Karan Tanwar", "interests": "SLAM Systems and Monocular Depth Estimation"},
+      {"name": "Abhinav Singhal", "interests": "Computer Vision, Machine Learning"},
+      {"name": "Abhishek Kumar", "interests": "Computer Vision"},
+      {"name": "Aman Gupta", "interests": "Medical Imaging, Detecting Breast Cancer"},
+      {"name": "Aryan Jain"},
+      {"name": "Shravan Manish Nawandar"},
+      {"name": "Dhruv Kumar Gupta"},
+      {"name": "Shivam Garg"},
+      {"name": "Vaibhav Soni"},
+      {"name": "Saptarshi Dasgupta"},
+      {"name": "Rakshita Choudhary"},
+      {"name": "Tanish Tuteja", "interests": "Scene Text Recognition"}
+    ],
+    "intern_ra": [
+      {"name": "Ashish Papanai"},
+      {"name": "Kartik Nanneboina"},
+      {"name": "Medhavi Math"},
+      {"name": "Vidya Moni"},
+      {"name": "Abhipal Sharma"}
+    ]
+  }
+} 
