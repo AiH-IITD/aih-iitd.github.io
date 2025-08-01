@@ -1,17 +1,2 @@
 [
-  {
-    "src": "/images/lab_event1.jpg",
-    "alt": "Lab group photo at AI Symposium 2024",
-    "caption": "AI in Healthcare Symposium 2024"
-  },
-  {
-    "src": "/images/lab_demo1.jpg",
-    "alt": "Live demo of surgical AI system",
-    "caption": "Live demo: Surgical AI system"
-  },
-  {
-    "src": "/images/lab_event2.jpg",
-    "alt": "Team presenting at CVPR 2024",
-    "caption": "CVPR 2024 Presentation"
-  }
 ] 

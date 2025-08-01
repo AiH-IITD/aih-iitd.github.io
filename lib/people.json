@@ -3,116 +3,165 @@
     {
       "name": "Dr. Chetan Arora",
       "title": "Professor, IIT Delhi",
-      "interests": "Computer Vision, Machine learning"
+      "interests": "Computer Vision, Machine learning",
+      "imagePath": "/images/people/chetan-arora.jpg",
+      "profileUrl": "https://www.cse.iitd.ac.in/~chetan/"
     }
   ],
   "external_faculty_collaborators": [
-    {"name": "Aditya Nigam", "title": "Assistant Professor, IIT Mandi"},
-    {"name": "Saket Anand", "title": "Associate Professor, IIIT Delhi"},
-    {"name": "Vikram Goyal", "title": "Professor, IIIT Delhi"},
-    {"name": "C.V. Jawahar", "title": "Professor, IIIT Hyderabad"},
-    {"name": "Vineeth N. Balasubramanian", "title": "Associate Professor, IIT Hyderabad"},
-    {"name": "Anbumani Subramanian", "title": "Intel"},
-    {"name": "Vinay P. Namboodiri", "title": "Faculty member, University of Bath, UK"},
-    {"name": "Shmuel Peleg", "title": "Professor, Hebrew University of Jerusalem, Israel"}
   ],
   "phd_students": [
-    {"name": "Ankita Raj", "interests": "Trustworthy ML, Privacy and Security in Computer Vision", "start": "2019"},
-    {"name": "Soumen Basu", "interests": "Deep Learning, Medical Image Analysis", "start": "2019", "note": "Thesis Submitted, Feb 2024"},
-    {"name": "Dr. Krithika Rangarajan", "title": "Associate Professor, AIIMS, New Delhi", "interests": "Medical Image Analysis", "start": "2019"},
-    {"name": "Rohan Dhanakshirur", "interests": "Computer Vision, Machine learning", "start": "2019"},
-    {"name": "Ramya Hebbalgappe", "title": "Senior Scientist, TCS Research", "interests": "Trustworthy ML, Computer Vision, Computational Photography", "start": "2020"},
-    {"name": "Nikhil Reddy", "title": "Joint PhD Univ. of Queensland and IIT Delhi", "interests": "Domain Generalization, Semantic Segmentation", "start": "2020"},
-    {"name": "Dr. Pankaj Gupta", "title": "Associate Professor, PGIMER, Chandigarh", "interests": "Radiodiagnosis, Medical Image Analysis", "start": "2021"},
-    {"name": "Prafful Kumar Khoba", "interests": "Revisiting assumptions and evaluation metrics in domain generalization", "start": "2022"},
-    {"name": "Kaustubh R Borgavi", "interests": "MAVI: Mobility Assistant for the Visually impaired", "start": "2024"}
+    {
+      "name": "Rohan Raju Dhanakshirur", 
+      "interests": "Neuro-navigation, Neuro-surgical Skills Evaluation", 
+      "start": "2019",
+      "imagePath": "/images/people/rohan-raju-dhanakshirur.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/rohan-raju-dhanakshirur-2103b2103/"
+    },
+    {
+      "name": "Ankita Raj", 
+      "interests": "Trustworthy AI, Model Stealing", 
+      "start": "2019",
+      "imagePath": "/images/people/ankita-raj.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/rajankita/"
+    },
+    {
+      "name": "Kaustubh Borgavi", 
+      "interests": "Domain Adaptation, Breast Cancer Classification, Breast Cancer Detection", 
+      "start": "2024",
+      "imagePath": "/images/people/kaustubh-borgavi.jpg",
+      "profileUrl": "https://www.linkedin.com/in/kaustubhrb/"
+    },
+    {
+      "name": "Abdul Rehman", 
+      "interests": "Breast Cancer Classification, Ultrasound Imagery", 
+      "start": "2025",
+      "imagePath": "/images/people/abdul-rehman.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/abdul-rehman-astro/"
+    },
+    {
+      "name": "Vaibhav Sharma", 
+      "interests": "Breast Cancer Classification, Tomosynthesis", 
+      "start": "2025",
+      "imagePath": "/images/people/vaibhav-sharma.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/learnerv/"
+    }
   ],
   "masters_students": [
-    {"name": "Kunal Dargan", "interests": "Video Object Segmentation and Tracking, Medical Imaging"},
-    {"name": "Suraj Patni", "interests": "Visual SLAM, Monocular Depth Estimation"},
-    {"name": "K.N. Ajay Shastry", "interests": "Pedestrian Detection"},
-    {"name": "Kshitiz Jain", "interests": "Computer Vision, Machine Learning"},
-    {"name": "Tajamul Ashraf", "interests": "Computer Vision, Machine Learning"},
-    {"name": "Shashank K. Vempati", "interests": "Optical Character Recognition"}
+    {
+      "name": "Mrinal Tyagi", 
+      "interests": "Endo SLAM",
+      "imagePath": "/images/people/mrinal-tyagi.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/mrinal-tyagi-02a1351b1/"
+    },
+    {
+      "name": "Chetan Madan", 
+      "interests": "GBC Classification",
+      "imagePath": "/images/people/chetan-madan.jpg",
+      "profileUrl": "https://www.linkedin.com/in/chetan-madan/"
+    },
+    {
+      "name": "Piyush Miglani", 
+      "interests": "Breast Cancer Classification",
+      "imagePath": "/images/people/piyush-miglani.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/piyush-miglani/"
+    },
+    {
+      "name": "Akshay Kumar", 
+      "imagePath": "/images/people/akshay-kumar.jpeg"
+    }
   ],
   "btech_students": [
-    {"name": "Aradhye Agarwal", "interests": "Depth Estimation"}
   ],
   "research_assistants": [
-    {"name": "Mrinal Tyagi", "interests": "Medical Imaging, Computer Vision"},
-    {"name": "Kartik Anand", "interests": "Uncertainty estimation and calibration in computer vision"},
-    {"name": "Abhilaksh Singh Reen", "interests": "OCR in Indian Languages, Interactive Machine Learning on Medical images"},
-    {"name": "Chetan Madan", "interests": "Medical Imaging, Cancer Detection"}
+    {
+      "name": "Keerti K M", 
+      "interests": "Neuro-navigation",
+      "imagePath": "/images/people/keerti.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/keerti-km/"
+    },
+    {
+      "name": "Kratika Parashar", 
+      "interests": "Frontend Development",
+      "imagePath": "/images/people/kratika-parashar.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/kratika-parashar-2a5328214/"
+    },
+    {
+      "name": "Sarvesh Shashikumar", 
+      "interests": "Domain Adaptation",
+      "imagePath": "/images/people/sarvesh-shashikumar.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/sarvesh-shashikumar/"
+    }
   ],
   "interns": [
-    {"name": "Anureet Chhabra", "interests": "SLAM for Visual Navigation"},
-    {"name": "Hardik Soni", "interests": "Optical Character Recognition, Text Detection"}
+    
   ],
   "external_student_collaborators": [
-    {"name": "Sharat Agarwal", "title": "PhD Student, IIIT Delhi (Co-advisor: Chetan Arora)"},
-    {"name": "Daksh Thapar", "title": "PhD Student, IIT Mandi (Co-advisor: Chetan Arora)"}
+
   ],
   "staff": [
-    {"name": "Manish Kumar", "title": "Senior Lab Assistant"},
-    {"name": "Deepa Tiwari", "title": "Admin Staff, SIT-009, Phone: 011-26596080"}
+
   ],
   "alumni": {
     "postdocs": [
-      {"name": "Dr. Arpan Garai", "first_employment": "Assistant Professor, Vellore Institute of Technology, Vellore, India"}
     ],
     "phd": [
-      {"name": "Pravin Nagar", "first_employment": "Postdoc, University of Maryland, CP", "year": "2022"},
-      {"name": "Britty Baby", "first_employment": "Scientist B, AIIMS New Delhi", "year": "2022"},
-      {"name": "Anupam Sobti", "first_employment": "Postdoc, Microsoft Research, India", "year": "2022"},
-      {"name": "Dinesh Khandelwal", "first_employment": "Research Scientist, IBM Research, India", "year": "2020"},
-      {"name": "Ishant Shanu", "first_employment": "Postdoc, NUS Singapore", "year": "2020"},
-      {"name": "Suvam Patra", "first_employment": "Applied Research Scientist, Facebook Reality Labs, London", "year": "2019"}
+      {
+        "name": "Soumen Basu", 
+        "first_employment": "Research Scientist, Meta, NY",
+        "interests": "Gallbladder Cancer (GBC) detection",
+        "year": "2024",
+        "profileUrl": "https://www.linkedin.com/in/basusoumen/"
+      },
+      {
+        "name": "Krithika Rangarajan", 
+        "first_employment": "Associate Professor, AIIMS, Delhi",
+        "interests": "Deep Learning in Medicine",
+        "year": "2025",
+        "profileUrl": "https://www.linkedin.com/in/krithika-rangarajan-65586039/"
+      }
     ],
     "masters": [
-      {"name": "Mayank Gupta", "interests": "Medical Imaging, Cancer Detection"},
-      {"name": "Devesh Pant", "interests": "Document/ Scene text OCR"},
-      {"name": "Ashutosh Agarwal", "interests": "Mobility, Fairness, Few-shot learning"}
+      {
+        "name": "Ajay Tomar", 
+        "first_employment": "Computer Vision Engineer, Thelios AI",
+        "interests": "Gallbladder Cancer (GBC) detection",
+        "year": "2025",
+        "profileUrl": "https://www.linkedin.com/in/aj-tomar/"
+      },
+      {
+        "name": "Kshitiz Jain", 
+        "first_employment": "Data Scientist II, Flipkart",
+        "interests": "Breast Cancer Classification, Breast Cancer Detection",
+        "year": "2025",
+        "profileUrl": "https://www.linkedin.com/in/kshitiz-jain-7a5b4a129/"
+      },
+      {
+        "name": "Tajamul Ashraf", 
+        "first_employment": "Research Associate II, MBZUAI",
+        "interests": "Domain Adaptation, Breast Cancer Detection",
+        "year": "2024",
+        "profileUrl": "https://www.linkedin.com/in/tajamul221/"
+      }
     ],
     "research_assistants": [
-      {"name": "Aatif Nisar Dar", "interests": "Assessing the Feasibility and Ethics of Household Economic Status Prediction using Deep Learning on Images"},
-      {"name": "Mayuna Gupta", "interests": "Medical Imaging, Cancer Detection"},
-      {"name": "Jayesh Chaudhari", "interests": "Object Detection, Gait Recognition"},
-      {"name": "Nishit Anand", "interests": "Document & Scene-Text OCR, Active Learning"}
+      {
+        "name": "Aarjav Satia", 
+        "first_employment": "AI Scientist, Qure.ai",
+        "interests": "GBC Classification",
+        "profileUrl": "https://www.linkedin.com/in/aarjav-satia-82964220a/"
+      },
+      {
+        "name": "Mrunmay Angaitkar", 
+        "first_employment": "AI Scientist, Qure.ai",
+        "interests": "Neuro-surgical Skills Evaluation",
+        "profileUrl": "https://www.linkedin.com/in/mrunmay-angaitkar-1b3503258/"
+      }
     ],
     "btech": [
-      {"name": "Abdur Rahman", "interests": "Computer Vision, Deep Learning"},
-      {"name": "Anirudha Kulkarni", "interests": "Computer Vision, Deep Learning"},
-      {"name": "Kuriseti Ravi Sri Teja"},
-      {"name": "Chinmay Mittal", "interests": "Scene Text Recognition"},
-      {"name": "Somanshu Singla"},
-      {"name": "Jatin Prakash"},
-      {"name": "Neelabh Madan"},
-      {"name": "Simarpreet Singh Saluja"},
-      {"name": "Shreyans Nagori"},
-      {"name": "Mukku Vishnumanogna"},
-      {"name": "Surya C. Kalia"},
-      {"name": "Arpan Mangal"},
-      {"name": "Tamajit Banerjee", "interests": "Computer Vision, Formal Languages and Automata Theory, Reinforcement Learning"},
-      {"name": "Mustafa Chasmai", "interests": "Computer Vision, Machine Learning"},
-      {"name": "Karan Tanwar", "interests": "SLAM Systems and Monocular Depth Estimation"},
-      {"name": "Abhinav Singhal", "interests": "Computer Vision, Machine Learning"},
-      {"name": "Abhishek Kumar", "interests": "Computer Vision"},
-      {"name": "Aman Gupta", "interests": "Medical Imaging, Detecting Breast Cancer"},
-      {"name": "Aryan Jain"},
-      {"name": "Shravan Manish Nawandar"},
-      {"name": "Dhruv Kumar Gupta"},
-      {"name": "Shivam Garg"},
-      {"name": "Vaibhav Soni"},
-      {"name": "Saptarshi Dasgupta"},
-      {"name": "Rakshita Choudhary"},
-      {"name": "Tanish Tuteja", "interests": "Scene Text Recognition"}
     ],
     "intern_ra": [
-      {"name": "Ashish Papanai"},
-      {"name": "Kartik Nanneboina"},
-      {"name": "Medhavi Math"},
-      {"name": "Vidya Moni"},
-      {"name": "Abhipal Sharma"}
+
     ]
   }
 } 

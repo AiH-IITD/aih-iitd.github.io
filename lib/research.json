@@ -1,20 +1,32 @@
 [
   {
-    "title": "Medical Image Analysis",
-    "description": "Advanced algorithms for analyzing medical images including X-rays, MRIs, and CT scans",
-    "icon": "Eye",
-    "tags": ["Deep Learning", "Segmentation", "Detection"]
+    "title": "Breast Cancer",
+    "description": "Developing cutting-edge AI and machine learning solutions for early detection, diagnosis, and personalized treatment of breast cancer. Our research focuses on integrating clinical, imaging, and genomic data to improve patient outcomes and advance predictive oncology.",
+    "icon": "Ribbon",
+    "tags": ["AI in Healthcare", "Oncology", "Medical Imaging"]
   },
   {
-    "title": "Diagnostic AI",
-    "description": "AI-powered diagnostic tools for early disease detection and treatment planning",
-    "icon": "Heart",
-    "tags": ["Classification", "Prediction", "Clinical AI"]
+    "title": "Domain Adaptation",
+    "description": "Pioneering new algorithms that allow machine learning models to generalize across different medical datasets and clinical environments. Our domain adaptation research ensures robust model performance despite variations in data, supporting real-world deployment in diverse healthcare settings.",
+    "icon": "Globe",
+    "tags": ["Machine Learning", "Transfer Learning", "Generalization"]
   },
   {
-    "title": "Surgical Navigation",
-    "description": "Computer vision systems for real-time surgical guidance and augmented reality",
+    "title": "Neuro-Surgical Navigation",
+    "description": "Advancing computer vision and AI-powered systems for real-time guidance in neurosurgery. Our tools improve the accuracy and safety of brain surgeries by providing surgeons with dynamic, high-precision navigation based on intraoperative imaging and anatomical models.",
     "icon": "Brain",
-    "tags": ["AR/VR", "Real-time", "3D Vision"]
+    "tags": ["Real-time", "Neuro-navigation", "Computer Vision", "Surgery"]
+  },
+  {
+    "title": "Gallbladder Cancer",
+    "description": "Focusing on the development of diagnostic and prognostic tools for gallbladder cancer using AI-driven analysis of histopathology and radiology data. Our research aims to uncover new biomarkers and improve therapeutic strategies for this challenging malignancy.",
+    "icon": "Hospital",
+    "tags": ["Cancer Research", "Diagnostics", "Medical AI"]
+  },
+  {
+    "title": "Neuro-Surgical Skills Evaluation",
+    "description": "Creating advanced assessment platforms for objective evaluation of neurosurgical skills using AI, motion tracking, and simulation data. Our research enables data-driven feedback for surgical trainees, promoting skill proficiency, safety, and ongoing professional development.",
+    "icon": "Activity",
+    "tags": ["Surgery", "Skills Assessment", "Simulation", "Medical Education"]
   }
-] 
+]

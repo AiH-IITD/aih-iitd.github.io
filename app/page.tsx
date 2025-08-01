@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Separator } from "@/components/ui/separator"
-import { Brain, Users, Mail, MapPin, Github, Linkedin } from "lucide-react"
+import { Brain, Users, Mail, MapPin } from "lucide-react"
 import Image from "next/image"
 import openings from "@/lib/openings.json";
 import news from "@/lib/news.json";
+import requirements from "@/lib/requirements.json";
 
 export default function HomePage() {
   return (
@@ -23,10 +23,10 @@ export default function HomePage() {
               We are a leading research group in the Department of Computer Science and Engineering at IIT Delhi, led by Professor Chetan Arora. With a dynamic team of 17 graduate students and numerous undergraduate researchers, interns, and RAs, we focus on advancing the intersection of computer vision and medical imaging. Our mission is to develop and deploy AI solutions that redefine medical diagnosis, imaging, and patient care.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-gray-900 hover:bg-gray-800">
-                  <a href="#research">Explore Our Research</a>
+                <Button asChild size="lg" className="bg-gray-900 hover:bg-gray-800">
+                  <a href="/research">Explore Our Research</a>
                 </Button>
-                <Button variant="outline" size="lg">
+                <Button asChild variant="outline" size="lg">
                   <a href="#join">Join Our Team</a>
                 </Button>
               </div>
@@ -34,11 +34,11 @@ export default function HomePage() {
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg?height=500&width=500"
+                  src="/images/lab_team.jpeg"
                   alt="AI Healthcare Computer Vision"
                   width={500}
                   height={500}
-                  className="rounded-2xl"
+                  className="rounded-xl"
                 />
               </div>
             </div>
@@ -270,9 +270,6 @@ export default function HomePage() {
                     <p className="text-sm text-gray-600">{opening.type} • {opening.description}</p>
                   </div>
                 ))}
-                <div className="mt-4 text-sm text-gray-700 bg-yellow-50 border-l-4 border-yellow-400 p-3 rounded">
-                  <strong>Note:</strong> Masters, PhD, and Postdoctoral candidates must apply through official IIT Delhi procedures and cannot be recruited directly through the lab.
-                </div>
               </CardContent>
             </Card>
 
@@ -281,23 +278,21 @@ export default function HomePage() {
                 <CardTitle className="text-xl">Application Requirements</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">For PhD Students:</h4>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Strong background in computer science or related field</li>
-                    <li>• Experience with deep learning frameworks</li>
-                    <li>• Interest in healthcare applications</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">For Postdocs:</h4>
-                  <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• PhD in Computer Vision, AI, or related field</li>
-                    <li>• Publication record in top-tier venues</li>
-                    <li>• Experience with medical imaging preferred</li>
-                  </ul>
-                </div>
-                <Button className="w-full bg-gray-900 hover:bg-gray-800">Apply Now</Button>
+                {requirements.map((req, idx) => (
+                  <div key={idx}>
+                    <h4 className="font-semibold text-gray-900 mb-2">{req.title}</h4>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      {req.requirements.map((requirement, reqIdx) => (
+                        <li key={reqIdx}>• {requirement}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+                <Button asChild className="w-full bg-gray-900 hover:bg-gray-800">
+                  <a href="https://www.linkedin.com/company/aih-iit-delhi/jobs" target="_blank" rel="noopener noreferrer">
+                    Apply Now
+                  </a>
+                </Button>
               </CardContent>
             </Card>
           </div>
@@ -314,50 +309,25 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
+          <div className="flex justify-center">
+            <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-900 mb-6">Get in Touch</h3>
               <div className="space-y-4">
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center justify-center space-x-3">
                   <Mail className="h-5 w-5 text-gray-600" />
                   <span className="text-gray-600">contact@aihealthcarelab.edu</span>
                 </div>
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center justify-center space-x-3">
                   <MapPin className="h-5 w-5 text-gray-600" />
-                  <span className="text-gray-600">123 Research Drive, University Campus</span>
+                  <span className="text-gray-600">Bharti School #505 </span>
                 </div>
+                <span className="text-gray-600">Indian Institute of Technology, Delhi</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Brain className="h-6 w-6" />
-              <span className="text-lg font-semibold">AI Healthcare Lab</span>
-            </div>
-            <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Github className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Mail className="h-5 w-5" />
-              </a>
-            </div>
-          </div>
-          <Separator className="my-8 bg-gray-800" />
-          <div className="text-center text-gray-400">
-            <p>&copy; 2024 AI Healthcare Lab. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }

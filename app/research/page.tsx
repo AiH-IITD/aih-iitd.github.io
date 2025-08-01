@@ -1,9 +1,9 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Eye, Heart, Brain } from "lucide-react";
+import { Brain, Ribbon, Globe, Hospital, Activity } from "lucide-react";
 import research from "@/lib/research.json";
 
-const iconMap = { Eye, Heart, Brain };
+const iconMap = { Brain, Ribbon, Globe, Hospital, Activity };
 
 export default function ResearchPage() {
   return (
@@ -17,7 +17,7 @@ export default function ResearchPage() {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {research.map((area, idx) => {
-            const Icon = iconMap[area.icon as keyof typeof iconMap] || Eye;
+            const Icon = iconMap[area.icon as keyof typeof iconMap] || Brain;
             return (
               <Card className="border-0 shadow-sm hover:shadow-md transition-shadow" key={idx}>
                 <CardHeader>

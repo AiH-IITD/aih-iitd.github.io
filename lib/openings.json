@@ -1,12 +1,12 @@
 [
   {
     "title": "Research Assistant",
-    "type": "Full-time / Part-time",
+    "type": "Full-time",
     "description": "Medical Imaging, Computer Vision, MLOps, and deployment of AI models"
   },
   {
     "title": "Research Intern",
-    "type": "Internship",
-    "description": "Short-term research projects in computer vision and AI for healthcare"
+    "type": "Full-time Internship",
+    "description": "Research projects in computer vision and AI for healthcare"
   }
 ] 

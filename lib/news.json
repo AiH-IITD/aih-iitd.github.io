@@ -1,20 +1,26 @@
 [
   {
-    "title": "Lab wins Best Paper Award at CVPR 2024",
-    "date": "2024-06-10",
-    "content": "Our team received the Best Paper Award for our work on federated learning in medical imaging at CVPR 2024.",
+    "title": "PhD Synopsis Presentation by Rohan Dhanakshirur",
+    "date": "2025-06-30",
+    "content": "Rohan Dhanakshirur successfully presented his PhD Synopsis, \"Advancing Automation in Microscopic and Endoscopic Neurosurgical Skills Assessment.\" His thesis develops automated, data-driven methods for evaluating minimally invasive neurosurgical skills like micro-suturing, micro-drilling, and endoscopic navigation using novel machine learning techniques. The work introduces image-based and video-based models, improved surgical instrument segmentation, and contributes large annotated datasets. Real-world testing shows strong alignment with expert assessments, supporting scalable, objective neurosurgical training and evaluation.",
     "link": "#"
   },
   {
-    "title": "New grant for AI in Surgery",
-    "date": "2024-05-20",
-    "content": "We have been awarded a major grant to develop AI-powered surgical navigation systems.",
+    "title": "PhD Synopsis Presentation by Ankita Raj",
+    "date": "2025-06-20",
+    "content": "Ankita Raj successfully presented her PhD Synopsis, \"Novel Attack and Defense Techniques for Learning-based Computer Vision Systems,\" . Her research investigates key security and privacy threats in deep learning vision models used in critical domains like healthcare and autonomous driving. It introduces methods to detect and implement backdoor attacks using natural triggers in face recognition and prompt-tuning in open-vocabulary object detectors. The thesis also explores efficient model stealing attacks on black-box medical imaging models and shows that models fine-tuned from large pretrained vision foundations are more vulnerable to theft than traditional architectures.",
     "link": "#"
   },
   {
-    "title": "Lab hosts annual AI in Healthcare Symposium",
-    "date": "2024-04-15",
-    "content": "Researchers and clinicians from around the world joined us for a day of talks and demos.",
+    "title": "MSR Thesis Defense of Kshitiz Jain",
+    "date": "2025-05-21",
+    "content": "Kshtiz Jain, a School of AI MSR student, presented his thesis defense on deep learning models for breast cancer detection from mammograms that mimic clinical practice by analyzing multiple views and incorporating patient history. The transformer-based models achieve state-of-the-art performance, support full-resolution images, and are optimized for deployment on edge devices with a clinician-friendly interface for practical use.",
+    "link": "#"
+  },
+  {
+    "title": "PhD Viva Voce presentation by Krithika Rangarajan",
+    "date": "2025-01-31",
+    "content": "Dr. Krithika Rangarajan successfully presented her PhD Viva Voce on \"Utility of Deep Learning in Breast Cancer Imaging in India.\" Her research focuses on applying deep learning to improve early detection and interpretation of mammograms, developing and testing AI tools tailored for Indian clinical needs, and enhancing radiology training and reporting.",
     "link": "#"
   }
 ] 
