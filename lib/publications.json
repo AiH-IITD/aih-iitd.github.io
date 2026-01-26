@@ -1,5 +1,15 @@
 [
   {
+    "title": "Robust and Efficient 3D Gaussian Splatting for Diagnostic Imaging",
+    "authors": "Mrinal Tyagi, Ashish Suri, Chetan Arora",
+    "venue": "IEEE International Symposium on Biomedical Imaging (ISBI), 2026",
+    "tags": [
+      "Gaussian Splatting",
+      "Reconstruction"
+    ],
+    "link": "/publications/robust3dgs"
+  },
+  {
     "title": "Attend What Matters: Leveraging Vision Foundational Models for Breast Cancer Classification Using Mammograms",
     "authors": "Samyak Sanghvi, Piyush Miglani, Sarvesh Shashikumar, Kaustubh R Borgavi, Chetan Arora",
     "venue": "IEEE International Symposium on Biomedical Imaging (ISBI), 2026",
