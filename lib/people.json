@@ -69,6 +69,12 @@
     {
       "name": "Akshay Kumar", 
       "imagePath": "/images/people/akshay-kumar.jpeg"
+    },
+    {
+      "name": "Sarvesh Shashikumar", 
+      "interests": "Domain Adaptation, Digital Breast Tomosynthesis",
+      "imagePath": "/images/people/sarvesh-shashikumar.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/sarvesh-shashikumar/"
     }
   ],
   "btech_students": [
@@ -85,12 +91,6 @@
       "interests": "Frontend Development",
       "imagePath": "/images/people/kratika-parashar.jpeg",
       "profileUrl": "https://www.linkedin.com/in/kratika-parashar-2a5328214/"
-    },
-    {
-      "name": "Sarvesh Shashikumar", 
-      "interests": "Domain Adaptation",
-      "imagePath": "/images/people/sarvesh-shashikumar.jpeg",
-      "profileUrl": "https://www.linkedin.com/in/sarvesh-shashikumar/"
     }
   ],
   "interns": [
