@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Brain, Users, Mail, MapPin } from "lucide-react"
+import { Users, Mail, MapPin } from "lucide-react"
 import Image from "next/image"
 import openings from "@/lib/openings.json";
 import news from "@/lib/news.json";
