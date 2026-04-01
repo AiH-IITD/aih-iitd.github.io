@@ -68,6 +68,42 @@ export default function AttendWhatMattersPage() {
                     <p className="mt-4 text-center text-gray-500 italic">Figure 1: Overview of the Attend What Matters framework.</p>
                 </section>
 
+                {/* Results Table */}
+                <section className="mb-16">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-6">Results</h2>
+                    <div className="overflow-x-auto">
+                        <table className="min-w-full text-sm text-center border-collapse">
+                            <thead>
+                                <tr className="bg-gray-100 border-b-2 border-gray-200">
+                                    <th className="px-4 py-3 text-left font-bold text-gray-900">Method</th>
+                                    <th className="px-4 py-3 font-bold text-gray-900">AUC</th>
+                                    <th className="px-4 py-3 font-bold text-gray-900">F1</th>
+                                    <th className="px-4 py-3 font-bold text-gray-900">R@0.1</th>
+                                    <th className="px-4 py-3 font-bold text-gray-900">R@0.3</th>
+                                    <th className="px-4 py-3 font-bold text-gray-900">R@0.5</th>
+                                </tr>
+                            </thead>
+                            <tbody className="divide-y divide-gray-100">
+                                <tr className="bg-blue-50/50"><td colSpan={6} className="px-4 py-2 text-center font-medium text-gray-700 italic">Vision only</td></tr>
+                                <tr><td className="px-4 py-2 text-left">ViT-A</td><td>79.0</td><td>41.1</td><td>55.0</td><td>71.2</td><td>84.3</td></tr>
+                                <tr><td className="px-4 py-2 text-left">ViT-B</td><td>83.0</td><td>50.0</td><td>61.4</td><td>77.0</td><td>86.9</td></tr>
+                                <tr><td className="px-4 py-2 text-left">ViT-C</td><td>78.4</td><td>31.1</td><td>43.7</td><td>67.2</td><td>82.4</td></tr>
+                                <tr><td className="px-4 py-2 text-left">MedVAE</td><td>57.5</td><td>20.6</td><td>23.7</td><td>41.9</td><td>60.1</td></tr>
+                                <tr><td className="px-4 py-2 text-left">TReg-SwinT</td><td>85.8</td><td>53.0</td><td>55.1</td><td>80.6</td><td>90.2</td></tr>
+                                <tr><td className="px-4 py-2 text-left">XFMamba</td><td>63.6</td><td>18.3</td><td>25.2</td><td>51.5</td><td>64.6</td></tr>
+
+                                <tr className="bg-blue-50/50"><td colSpan={6} className="px-4 py-2 text-center font-medium text-gray-700 italic">Image-Text</td></tr>
+                                <tr><td className="px-4 py-2 text-left">MMBCD</td><td>77.1</td><td>27</td><td>50</td><td>66.2</td><td>82.8</td></tr>
+                                <tr><td className="px-4 py-2 text-left">M-C-B5</td><td>85.8</td><td>50.8</td><td>65.4</td><td className="font-bold">83.5</td><td>89.9</td></tr>
+                                <tr className="bg-gray-50 border-t border-gray-200"><td className="px-4 py-2 text-left font-bold">Ours</td><td className="font-bold">86.6</td><td className="font-bold">54.5</td><td className="font-bold">66.5</td><td>80.7</td><td className="font-bold">90.3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p className="mt-4 text-sm text-gray-600 text-center max-w-3xl mx-auto leading-relaxed">
+                        Table 1: Performance comparison on the VinDR dataset. ViT-A and ViT-B correspond to DINO with a linear layer at input resolutions of 448x448 and 1024x1024 respectively. ViT-C demonstrates scores using a DeIT head instead of a linear layer at 448x448 input resolution.
+                    </p>
+                </section>
+
                 {/* Citation */}
                 <section>
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">Citation</h2>
