@@ -20,7 +20,10 @@ export default function PublicationsPage() {
               <CardContent className="p-6">
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{pub.title}</h3>
+                    <a href={pub.project_page} rel="noopener noreferrer">
+                        {/* <ExternalLink className="h-4 w-4" /> */}
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">{pub.title}</h3>
+                    </a>
                     <p className="text-gray-600 mb-3">{pub.authors}</p>
                     <p className="text-sm text-gray-500 mb-3">{pub.venue}</p>
                     <div className="flex flex-wrap gap-2">
