@@ -1,5 +1,15 @@
 [
   {
+    "title": "Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection",
+    "authors": "Kaustubh R Borgavi, Sarvesh Shashikumar, Chetan Arora",
+    "venue": "IEEE International Conference on Computer Vision and Pattern Recognition (CVPR) - Findings Track, 2026",
+    "tags": [
+      "Domain Adaptation",
+      "Breast Cancer"
+    ],
+    "project_page": "/publications/adapting-with-an-open-mind"
+  },
+  {
     "title": "Robust and Efficient 3D Gaussian Splatting for Diagnostic Imaging",
     "authors": "Mrinal Tyagi, Ashish Suri, Chetan Arora",
     "venue": "IEEE International Symposium on Biomedical Imaging (ISBI), 2026",
@@ -7,7 +17,7 @@
       "Gaussian Splatting",
       "Reconstruction"
     ],
-    "link": "/publications/robust3dgs"
+    "project_page": "/publications/robust3dgs"
   },
   {
     "title": "Attend What Matters: Leveraging Vision Foundational Models for Breast Cancer Classification Using Mammograms",
@@ -18,7 +28,7 @@
       "Mammography",
       "Vision Transformers"
     ],
-    "link": "/publications/attend-what-matters"
+    "project_page": "/publications/attend-what-matters"
   },
   {
     "title": "RadFormer: Transformers with global–local attention for interpretable and accurate Gallbladder Cancer detection",
