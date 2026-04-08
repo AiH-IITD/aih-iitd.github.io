@@ -71,7 +71,7 @@ export default function Robust3DGSPage() {
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">Citation</h2>
                     <Card className="bg-gray-50 border-gray-200">
                         <CardContent className="p-4 overflow-x-auto">
-                            <pre className="text-sm text-gray-700 font-mono whitespace-pre">{`@inproceedings{sanghvi2026attend,
+                            <pre className="text-sm text-gray-700 font-mono whitespace-pre">{`@inproceedings{tyagi2026attend,
   title={Robust and Efficient 3D Gaussian Splatting for Diagnostic Imaging},
   author={Tyagi, Mrinal and Suri, Ashish and Arora, Chetan},
   booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
