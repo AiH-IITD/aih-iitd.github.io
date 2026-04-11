@@ -50,7 +50,7 @@
   "masters_students": [
     {
       "name": "Mrinal Tyagi", 
-      "interests": "Endo SLAM",
+      "interests": "Endo SLAM, Report Generation",
       "imagePath": "/images/people/mrinal-tyagi.jpeg",
       "profileUrl": "https://www.linkedin.com/in/mrinal-tyagi-02a1351b1/"
     },
@@ -62,12 +62,13 @@
     },
     {
       "name": "Piyush Miglani", 
-      "interests": "Breast Cancer Classification",
+      "interests": "Breast Cancer, Report Generation",
       "imagePath": "/images/people/piyush-miglani.jpeg",
       "profileUrl": "https://www.linkedin.com/in/piyush-miglani/"
     },
     {
       "name": "Akshay Kumar", 
+      "interests": "Chest X-Ray",
       "imagePath": "/images/people/akshay-kumar.jpeg"
     },
     {
@@ -78,20 +79,21 @@
     }
   ],
   "btech_students": [
+    {
+        "name": "Samyak Sanghvi", 
+        "first_employment": "CSE 3rd Year, IIT Delhi",
+        "interests": "Breast Cancer, Report Generation",
+        "imagePath": "/images/people/samyak-sanghvi.jpeg",
+        "profileUrl": "https://samyakss83.github.io"
+      }
   ],
   "research_assistants": [
     {
-      "name": "Keerti K M", 
-      "interests": "Neuro-navigation",
-      "imagePath": "/images/people/keerti.jpeg",
-      "profileUrl": "https://www.linkedin.com/in/keerti-km/"
-    },
-    {
-      "name": "Kratika Parashar", 
-      "interests": "Frontend Development",
-      "imagePath": "/images/people/kratika-parashar.jpeg",
-      "profileUrl": "https://www.linkedin.com/in/kratika-parashar-2a5328214/"
-    }
+        "name": "Rajat Vajpayee", 
+        "interests": "Chest X-Ray, Report Generation, Visual Grounding",
+        "imagePath": "/images/people/rajat-vajpayee.jpeg",
+        "profileUrl": "https://www.linkedin.com/in/rajat-vajpayee/"
+      }
   ],
   "interns": [
     
@@ -156,7 +158,19 @@
         "first_employment": "AI Scientist, Qure.ai",
         "interests": "Neuro-surgical Skills Evaluation",
         "profileUrl": "https://www.linkedin.com/in/mrunmay-angaitkar-1b3503258/"
-      }
+      },
+          {
+      "name": "Keerti K M", 
+      "interests": "Neuro-navigation",
+      "imagePath": "/images/people/keerti.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/keerti-km/"
+    },
+    {
+      "name": "Kratika Parashar", 
+      "interests": "Frontend Development",
+      "imagePath": "/images/people/kratika-parashar.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/kratika-parashar-2a5328214/"
+    }
     ],
     "btech": [
     ],

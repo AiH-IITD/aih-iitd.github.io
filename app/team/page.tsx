@@ -58,7 +58,7 @@ function PersonCard({ person, idx }: { person: TeamPerson; idx: number }) {
             alt={person.name}
             width={96}
             height={96}
-            className="rounded-full"
+            className="rounded-full object-cover w-full h-full"
           />
         </div>
         <CardTitle className="text-xl">{person.name}</CardTitle>
