@@ -1,4 +1,15 @@
 [
+  {"title": "1 paper accepted at The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026, Findings Track!", 
+    "date": "2025-10-01",
+    "content": "We are excited to share that our paper titled \"AdaAdapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection\" has been accepted for publication in the Findings Track of the prestigious CVPR 2026! This work presents a novel method for source-free domain adaptive object detection that leverages open-vocabulary detectors to adapt to new domains without requiring access to source data. We are thrilled to contribute to the field of computer vision and look forward to sharing our research with the community at CVPR 2026!",
+    "link": "/publications/adapting-with-an-open-mind"
+  },
+  {
+    "title": "2 papers accepted at IEEE International Symposium on Biomedical Imaging (ISBI) 2026!",
+    "date": "2025-07-15",
+    "content": "We are thrilled to announce that two papers from our lab have been accepted for publication at the prestigious IEEE International Symposium on Biomedical Imaging (ISBI) 2026! The accepted papers are: 1) \"Robust and Efficient 3D Gaussian Splatting for Diagnostic Imaging\" by Mrinal Tyagi, Ashish Suri, and Chetan Arora, which presents a novel method for 3D reconstruction in diagnostic imaging using Gaussian splatting. 2) \"Attend What Matters: Leveraging Vision Foundational Models for Breast Cancer Classification Using Mammograms\" by Samyak Sanghvi, Piyush Miglani, Sarvesh Shashikumar, Kaustubh R Borgavi, and Chetan Arora, which explores the use of vision foundational models for improving breast cancer classification from mammograms. We are excited to share our research with the community and look forward to presenting our work at ISBI 2026!",
+    "link": "/publications"
+  },
   {
     "title": "PhD Synopsis Presentation by Rohan Dhanakshirur",
     "date": "2025-06-30",
