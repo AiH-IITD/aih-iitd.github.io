@@ -20,13 +20,17 @@ export default function AttendWhatMattersPage() {
                     <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
                         Attend What Matters: Leveraging Vision Foundational Models for Breast Cancer Classification Using Mammograms
                     </h1>
-                    <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-600 mb-6">
-                        <span>Samyak Sanghvi</span>
-                        <span>Piyush Miglani</span>
-                        <span>Sarvesh Shashikumar</span>
-                        <span>Kaustubh R Borgavi</span>
-                        <span>Veenu Singla</span>
-                        <span>Chetan Arora</span>
+                    <div className="text-lg text-gray-600 mb-6 text-center">
+                        <div className="flex justify-center gap-4 mb-2">
+                            <span>Samyak Sanghvi</span>
+                            <span>Piyush Miglani</span>
+                            <span>Sarvesh Shashikumar</span>
+                            <span>Kaustubh R Borgavi</span>
+                        </div>
+                        <div className="flex justify-center gap-4">
+                            <span>Veenu Singla</span>
+                            <span>Chetan Arora</span>
+                        </div>
                     </div>
                     <div className="flex justify-center items-center gap-2 mb-8">
                         <Badge variant="outline" className="text-md py-1 px-3">IEEE ISBI 2026</Badge>
