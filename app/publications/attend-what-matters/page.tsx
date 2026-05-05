@@ -25,6 +25,7 @@ export default function AttendWhatMattersPage() {
                         <span>Piyush Miglani</span>
                         <span>Sarvesh Shashikumar</span>
                         <span>Kaustubh R Borgavi</span>
+                        <span>Veenu Singla</span>
                         <span>Chetan Arora</span>
                     </div>
                     <div className="flex justify-center items-center gap-2 mb-8">
