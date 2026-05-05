@@ -111,7 +111,7 @@ export default function AttendWhatMattersPage() {
                         <CardContent className="p-4 overflow-x-auto">
                             <pre className="text-sm text-gray-700 font-mono whitespace-pre">{`@inproceedings{sanghvi2026attend,
   title={Attend What Matters: Leveraging Vision Foundational Models for Breast Cancer Classification Using Mammograms},
-  author={Sanghvi, Samyak and Miglani, Piyush and Shashikumar, Sarvesh and Borgavi, Kaustubh R and Arora, Chetan},
+  author={Sanghvi, Samyak and Miglani, Piyush and Shashikumar, Sarvesh and Borgavi, Kaustubh R and Singla, Veenu and Arora, Chetan},
   booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
   year={2026}
 }`}</pre>
