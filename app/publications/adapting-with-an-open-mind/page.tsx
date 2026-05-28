@@ -78,7 +78,10 @@ export default function Adapt() {
 
                 {/* Citation */}
                 <section>
-                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Citation</h2>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                        Citation
+                    </h2>
+                
                     <Card className="bg-gray-50 border-gray-200">
                         <CardContent className="p-4 overflow-x-auto">
                             <pre className="text-sm text-gray-700 font-mono whitespace-pre-wrap break-words">
