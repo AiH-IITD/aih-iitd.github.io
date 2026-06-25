@@ -27,8 +27,8 @@ export default function Adapt() {
 
                     <p className="text-gray-500 mb-6">
                         Contact:{" "}
-                        <a href="mailto:kaustubh@example.com" className="text-blue-600 hover:underline">
-                            kaustubh@example.com
+                        <a href="mailto:aiz248319@scai.iitd.ac.in" className="text-blue-600 hover:underline">
+                            aiz248319@scai.iitd.ac.in
                         </a>
                     </p>
 
@@ -91,13 +91,13 @@ export default function Adapt() {
                     <Card className="bg-gray-50 border-gray-200">
                         <CardContent className="p-4 overflow-x-auto">
                             <pre className="text-sm text-gray-700 font-mono whitespace-pre-wrap break-words">
-                {`@InProceedings{Borgavi_2026_CVPR,
-    author    = {Borgavi, Kaustubh R and Shashikumar, Sarvesh and Arora, Chetan},
-    title     = {Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
-    month     = {June},
-    year      = {2026},
-    pages     = {6570--6581}
+                {@inproceedings{borgavi2026adapting,
+                      title={Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection},
+                      author={Borgavi, Kaustubh R and Shashikumar, Sarvesh and Arora, Chetan},
+                      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+                      pages={6570--6581},
+                      year={2026}
+}
 }`}
                             </pre>
                         </CardContent>
