@@ -15,7 +15,7 @@ export default function Adapt() {
                     Back to Publications
                 </Link>
 
-                {/* Title Section */}
+                    {/* Title Section */}
                     <div className="text-center mb-12">
                         <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
                             Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection
