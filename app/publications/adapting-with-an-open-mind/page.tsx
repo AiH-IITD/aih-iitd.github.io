@@ -16,17 +16,32 @@ export default function Adapt() {
                 </Link>
 
                 {/* Title Section */}
-                <div className="text-center mb-12">
-                    <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-                        Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection
-                    </h1>
-                    <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-600 mb-6">
-                        <span>Kaustubh R Borgavi</span>
-                        <span>Sarvesh Shashikumar</span>
-                        <span>Chetan Arora</span>
-                    </div>
-                    <div className="flex justify-center items-center gap-2 mb-8">
-                        <Badge variant="outline" className="text-md py-1 px-3">CVPR 2026</Badge>
+                    <div className="text-center mb-12">
+                        <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+                            Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection
+                        </h1>
+                    
+                        <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-600 mb-2">
+                            <span>Kaustubh R Borgavi</span>
+                            <span>Sarvesh Shashikumar</span>
+                            <span>Chetan Arora</span>
+                        </div>
+                    
+                        <p className="text-gray-500 mb-6">
+                            Contact:{" "}
+                            <a
+                                href="mailto:kaustubh@example.com"
+                                className="text-blue-600 hover:underline"
+                            >
+                                kaustubh@example.com
+                            </a>
+                        </p>
+                    
+                        <div className="flex justify-center items-center gap-2 mb-8">
+                            <Badge variant="outline" className="text-md py-1 px-3">
+                                CVPR 2026
+                            </Badge>
+                        </div>
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-4">
