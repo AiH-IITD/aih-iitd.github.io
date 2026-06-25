@@ -1,11 +1,3 @@
-
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
-import { ArrowLeft, FileText, Github } from "lucide-react";
-import Link from "next/link";
-import Image from "next/image";
-
 export default function Adapt() {
     return (
         <main className="min-h-screen bg-white py-20">
@@ -15,33 +7,29 @@ export default function Adapt() {
                     Back to Publications
                 </Link>
 
-                    {/* Title Section */}
-                    <div className="text-center mb-12">
-                        <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-                            Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection
-                        </h1>
-                    
-                        <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-600 mb-2">
-                            <span>Kaustubh R Borgavi</span>
-                            <span>Sarvesh Shashikumar</span>
-                            <span>Chetan Arora</span>
-                        </div>
-                    
-                        <p className="text-gray-500 mb-6">
-                            Contact:{" "}
-                            <a
-                                href="mailto:kaustubh@example.com"
-                                className="text-blue-600 hover:underline"
-                            >
-                                kaustubh@example.com
-                            </a>
-                        </p>
-                    
-                        <div className="flex justify-center items-center gap-2 mb-8">
-                            <Badge variant="outline" className="text-md py-1 px-3">
-                                CVPR 2026
-                            </Badge>
-                        </div>
+                {/* Title Section */}
+                <div className="text-center mb-12">
+                    <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+                        Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection
+                    </h1>
+
+                    <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-600 mb-2">
+                        <span>Kaustubh R Borgavi</span>
+                        <span>Sarvesh Shashikumar</span>
+                        <span>Chetan Arora</span>
+                    </div>
+
+                    <p className="text-gray-500 mb-6">
+                        Contact:{" "}
+                        <a href="mailto:kaustubh@example.com" className="text-blue-600 hover:underline">
+                            kaustubh@example.com
+                        </a>
+                    </p>
+
+                    <div className="flex justify-center items-center gap-2 mb-8">
+                        <Badge variant="outline" className="text-md py-1 px-3">
+                            CVPR 2026
+                        </Badge>
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-4">
@@ -70,7 +58,7 @@ export default function Adapt() {
                     </p>
                 </section>
 
-                {/* Teaser Image Placeholder */}
+                {/* Teaser Image */}
                 <section className="mb-16">
                     <div className="w-full bg-gray-50 rounded-xl overflow-hidden border border-gray-200 shadow-sm">
                         <Image
@@ -93,25 +81,23 @@ export default function Adapt() {
 
                 {/* Citation */}
                 <section>
-                    <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                        Citation
-                    </h2>
-                
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Citation</h2>
                     <Card className="bg-gray-50 border-gray-200">
                         <CardContent className="p-4 overflow-x-auto">
                             <pre className="text-sm text-gray-700 font-mono whitespace-pre-wrap break-words">
                 {`@InProceedings{Borgavi_2026_CVPR,
-                    author    = {Borgavi, Kaustubh R and Shashikumar, Sarvesh and Arora, Chetan},
-                    title     = {Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection},
-                    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
-                    month     = {June},
-                    year      = {2026},
-                    pages     = {6570--6581}
-                }`}
+    author    = {Borgavi, Kaustubh R and Shashikumar, Sarvesh and Arora, Chetan},
+    title     = {Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+    month     = {June},
+    year      = {2026},
+    pages     = {6570--6581}
+}`}
                             </pre>
                         </CardContent>
                     </Card>
                 </section>
+
             </div>
         </main>
     );
