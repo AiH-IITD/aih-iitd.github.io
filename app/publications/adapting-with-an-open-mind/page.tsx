@@ -39,13 +39,17 @@ export default function Adapt() {
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-4">
-                        <Button className="gap-2" disabled>
-                            <FileText className="h-4 w-4" />
-                            Paper
+                        <Button className="gap-2" asChild>
+                            <a href="https://openaccess.thecvf.com/content/CVPR2026F/papers/Borgavi_Adapting_with_an_Open_Mind_Leveraging_Open-Vocabulary_Detectors_for_Closed_CVPRF_2026_paper.pdf" target="_blank" rel="noopener noreferrer">
+                                <FileText className="h-4 w-4" />
+                                Paper
+                            </a>
                         </Button>
-                        <Button className="gap-2" disabled>
-                            <Github className="h-4 w-4" />
-                            Code
+                        <Button className="gap-2" asChild>
+                            <a href="https://github.com/AiH-IITD/OVOD-in-SFDA" target="_blank" rel="noopener noreferrer">
+                                <Github className="h-4 w-4" />
+                                Code
+                            </a>
                         </Button>
                     </div>
                 </div>
@@ -91,16 +95,14 @@ export default function Adapt() {
                     <Card className="bg-gray-50 border-gray-200">
                         <CardContent className="p-4 overflow-x-auto">
                             <pre className="text-sm text-gray-700 font-mono whitespace-pre-wrap break-words">
-                            {`@InProceedings{Borgavi_2026_CVPR,
-                                author    = {Borgavi, Kaustubh R and Shashikumar, Sarvesh and Arora, Chetan},
-                                title     = {Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection},
-                                booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
-                                month     = {June},
-                                year      = {2026},
-                                pages     = {6570--6581}
-                            }`}
-</pre>
-}`}
+                {`@InProceedings{Borgavi_2026_CVPR,
+                    author    = {Borgavi, Kaustubh R and Shashikumar, Sarvesh and Arora, Chetan},
+                    title     = {Adapting with an Open Mind: Leveraging Open-Vocabulary Detectors for Closed Set Source-Free Domain Adaptive Object Detection},
+                    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+                    month     = {June},
+                    year      = {2026},
+                    pages     = {6570--6581}
+                }`}
                             </pre>
                         </CardContent>
                     </Card>
