@@ -37,12 +37,23 @@ export default function AttendWhatMattersPage() {
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-4">
-                        <Button className="gap-2" disabled>
-                            <FileText className="h-4 w-4" />
-                            Paper
-                        </Button>
                         <Button variant="outline" className="gap-2" asChild>
-                            <a href="https://github.com/AiH-IITD/attend-what-matters-ISBI-2026" target="_blank" rel="noopener noreferrer">
+                            <a
+                                href="https://arxiv.org/abs/2604.19350"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FileText className="h-4 w-4" />
+                                Paper
+                            </a>
+                        </Button>
+
+                        <Button variant="outline" className="gap-2" asChild>
+                            <a
+                                href="https://github.com/AiH-IITD/attend-what-matters-ISBI-2026"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <Github className="h-4 w-4" />
                                 Code
                             </a>
