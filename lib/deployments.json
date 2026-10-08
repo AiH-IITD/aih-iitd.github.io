@@ -1,0 +1,36 @@
+[
+  {
+    "id": "swasth",
+    "title": "SWASTH",
+    "fullName": "Smart Workflow for AI-assisted Screening and Treatment in Healthcare",
+    "description": "Smart Workflow for AI-assisted Screening and Treatment in Healthcare",
+    "lab": "AI in Healthcare Lab at IIT Delhi",
+    "link": "https://aih.cse.iitd.ac.in/swasth/",
+    "status": "Active Deployment",
+    "gradient": "from-emerald-400 via-teal-300 to-cyan-400",
+    "glowColor": "rgba(52,211,153,0.45)",
+    "tags": [
+      "Clinical AI",
+      "Screening & Treatment",
+      "Deployment",
+      "Healthcare Workflow"
+    ]
+  },
+  {
+    "id": "dr-annotation",
+    "title": "DR Annotation",
+    "fullName": "Diabetic Retinopathy Grading Platform",
+    "description": "Diabetic retinopathy grading and annotation tool for clinical and research ophthalmology workflows.",
+    "lab": "AI in Healthcare Lab at IIT Delhi",
+    "link": "https://aih.cse.iitd.ac.in/dr-annotation/login",
+    "status": "Active Tool",
+    "gradient": "from-emerald-400 via-teal-300 to-cyan-400",
+    "glowColor": "rgba(52,211,153,0.45)",
+    "tags": [
+      "Diabetic Retinopathy",
+      "Annotation Tool",
+      "Ophthalmology",
+      "Clinical Grading"
+    ]
+  }
+]
